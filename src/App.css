@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+  background-size: auto;
+}
+
+#top-font {
+  font-family: 'Playfair Display', serif;
+  font-size:3em;
+  
+}
+
+.background {
+  font-family: 'Titillium Web', sans-serif;
+  padding:1%;
+  margin-top: 2em;
+  color:#3B3D3A;
+}
+
+#result-box {
+  background-color:rgba(255, 255, 255, 0.5);
+  
+}
+
+#top-bar {
+  height:2em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+
+.question {
+  padding:0.5em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.button {
+    background-color: #4AA080;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+#missingData {
+  color:red;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
